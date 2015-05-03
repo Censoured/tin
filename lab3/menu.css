@@ -1,0 +1,73 @@
+nav
+{
+	min-width: 640
+}
+
+nav ul
+{
+	list-style: none;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+	background: #c4c4c4;
+	padding: 1em 1em 0 1em;
+	text-align: center;
+}
+
+ul li ul
+{
+	padding: 0;
+	background: none;
+	margin: 0;
+}
+
+ul .selected
+{
+	background: #e0e0e3;
+	border-bottom: none;
+}
+
+ul li
+{
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+	border: 1px solid black;
+	border-bottom: none;
+	text-align: center;
+	display: inline-block;
+	padding: 4px 4px 0 4px;
+	background: #c4c4c4;
+}
+
+.clickable
+{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.clickable:hover
+{
+	background-color: #ffff00;
+}
+
+.single 
+{
+	height: 43px;
+	vertical-align: top;
+}
+
+.double
+{
+	height: 65px;
+	width: 88px;
+	vertical-align: top;
+	position: relative;
+}
+
+.double ul
+{
+	vertical-align: bottom;
+	position: absolute;
+	bottom: 0;
+}
