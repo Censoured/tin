@@ -3,24 +3,26 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Damian Romiński. Technologie Internetu</title>
-		<link rel="stylesheet" href="lab2.css">
+		<link rel="stylesheet" href="common.css">
 	</head>
 	<body>
 		<header itemscope itemtype="http://schema.org/Person">
 			<h1  itemprop="name"><span itemprop="givenName">Damian</span> <span itemprop="familyName">Romiński</span></h1>
 		</header>
 		<nav id="nav">
+			<h2 class="navbar">Nawigacja</h2>
 			<ul class="navbar">
-			<h2>Nawigacja</h2>
 				<li><a href="#dane">Dane osobowe</a></li>
 				<li><a href="#zainteresowania">Zainteresowania</a></li>
 				<li><a href="#wyksztalcenie">Wykształcenie</a></li>
-				<ol class="navbar">
+				<li class="none">
+				<ul class="navbar2">
 					<li><a href="#podst">Podstawówka</a></li>
 					<li><a href="#gim">Gimnazjum</a></li>
 					<li><a href="#tech">Technikum</a></li>
 					<li><a href="#pj">Studia</a></li>
-				</ol>
+				</ul>
+				</li>
 				<li><a href="#tin">Technologie Internetowe</a></li>
 				<li><a href="#akapit">Ćw 1.2</a></li>
 			</ul>
@@ -41,17 +43,17 @@
 			<ul>
 				<li>Manga
 					<ol class="books">
-						<li><span class="tytul">Bleach</span> - <span class="autor">tite kubo</span></li>
-						<li><span class="tytul">Naruto</span> - <span class="autor">masashi kishimoto</span></li>
-						<li><span class="tytul">Shingeki no Kyojin</span></li>
+						<li><span class="tytul">Bleach</span> - <span class="autor">Tite Kubo</span></li>
+						<li><span class="tytul">Naruto</span> - <span class="autor">Masashi Kishimoto</span></li>
+						<li><span class="tytul">Shingeki no Kyojin</span> - <span class="autor">Hajime Isayama</span></li>
 					</ol>
 				</li>
 				<li itemscope itemtype="http://schema.org/Thing">Anime
 					<ol class="books">
-						<li itemprop="name"><span class="tytul">Code Geass</span></li>
-						<li itemprop="name"><span class="tytul">Elfen Lied</span></li>
-						<li itemprop="name"><span class="tytul">Fullmetal Alchemist</span></li>
-						<li itemprop="name"><span class="tytul">Sword Art Online</span></li>
+						<li itemprop="name"><span class="tytul">Code Geass</span> - <span class="autor">Ichiro Okouchi</span></li>
+						<li itemprop="name"><span class="tytul">Elfen Lied</span> - <span class="autor">Lynn Okamoto</span></li>
+						<li itemprop="name"><span class="tytul">Fullmetal Alchemist</span> - <span class="autor">Hiromu Arakawa</span></li>
+						<li itemprop="name"><span class="tytul">Sword Art Online</span> - <span class="autor">Reki Kawahara</span></li>
 					</ol>
 				</li>
 			</ul>
@@ -98,11 +100,13 @@
 		<footer>
 
 			<address>
-				<p>Strona stworzona: <time datetime="2009-09-23">23 września 2009 roku</time>
-					<p align="left" class="footer" style="float:left;">
-					<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-html5-blue" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
-					</p>
+				<p>Strona stworzona: <time datetime="2015-05-01">23 września 2009 roku</time></p>
+				<p>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				    	<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Poprawny CSS!" />
+				    </a>
 				</p>
+				<p class="print">Wydruk ze strony</p>
 			</address>
 		</footer>
 	</body>

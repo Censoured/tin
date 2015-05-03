@@ -1,0 +1,60 @@
+@media screen
+{
+	.print {
+	display: none;
+	}
+
+	body {
+		padding-left: 14em;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		color: purple;
+		background-color: #d8da3d 
+	}
+
+	h2.navbar {
+		position: absolute;
+		top: 0.5em;
+		left: 1em;
+		width: 12em 
+	}
+	ul.navbar {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 4em;
+		left: 1em;
+		width: 12em 
+	}
+
+	ul.navbar2 {
+	list-style-type: none;
+	}
+	ol.navbar {
+		list-style-type: none;
+	}
+	h1 {
+		font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif 
+	}
+	ol.books {
+		list-style-type: upper-roman;
+	}
+	ul.navbar li {
+		background: white;
+		margin: 0.5em 0;
+		padding: 0.3em;
+		border-right: 1em solid black 
+	}
+	nav ul li:hover > ul {
+		display: block;
+	}
+	ul.navbar li.none {
+		background: none;
+		margin: 0;
+		padding: 0;
+		border-right: 0 
+	}
+	ul.navbar a {
+		text-decoration: none 
+	}
+}
